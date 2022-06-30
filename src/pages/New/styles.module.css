@@ -1,0 +1,35 @@
+form input[type="radio"] {
+  margin: 15px 0;
+}
+
+form input[type="radio"]:not(:first-child) {
+  margin-left: 15px;
+}
+
+form textarea {
+  height: 105px;
+  resize: none;
+}
+
+.status span {
+  padding-left: 0.5em;
+  font-size: 1.3em;
+}
+
+.msgSucesso {
+  /* font-size: 2.4rem; */
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #008000;
+}
+
+.msgErroCreateCliente {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: red;
+}
+/*# sourceMappingURL=styles.module.css.map */

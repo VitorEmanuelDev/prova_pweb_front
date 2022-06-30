@@ -1,0 +1,112 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: .8em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+.label-avatar {
+  width: 280px;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.label-avatar input {
+  display: none;
+}
+
+.label-avatar span {
+  z-index: 99;
+  position: absolute;
+  opacity: 0.7;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.label-avatar span:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.formProfile img {
+  margin-bottom: 1em;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.formProfile label {
+  margin-bottom: .5em;
+  font-size: 1.4em;
+}
+
+.formProfile input, textarea, select {
+  margin-bottom: 1em;
+  padding: .7em;
+  border: 0;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.formProfile input:disabled {
+  cursor: not-allowed;
+}
+
+.formProfile button {
+  max-width: 600px;
+}
+
+.logout-btn {
+  padding: 8px 20px;
+  background-color: transparent;
+  border: 1px solid #121212;
+  border-radius: 5px;
+  font-size: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.msgSucesso {
+  /* font-size: 2.4rem; */
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #008000;
+}
+
+.msgErroCreateCliente {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: red;
+}
+/*# sourceMappingURL=styles.module.css.map */
